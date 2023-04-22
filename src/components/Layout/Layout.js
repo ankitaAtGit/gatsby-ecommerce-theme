@@ -13,7 +13,7 @@ const Layout = ({ children, disablePaddingBottom = false }) => {
     <>
       <Helmet>
         {/* Add any sitewide scripts here */}
-        <script type="text/javascript" src={'/js/main.js'} />
+        <script type="text/javascript" src={'./js/main.js'} />
         <link
           rel="stylesheet"
           type="text/css"
