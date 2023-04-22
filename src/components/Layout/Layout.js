@@ -9,11 +9,12 @@ import * as styles from './Layout.module.css';
 // CSS not modular here to provide global styles
 import './Globals.css';
 
-const Layout = ({ props, children, disablePaddingBottom = false }) => {
+const Layout = ({ children, disablePaddingBottom = false }) => {
   return (
     <>
       <Helmet>
         {/* Add any sitewide scripts here */}
+        <script type="text/javascript" src={'/js/main.js'} />
         <link
           rel="stylesheet"
           type="text/css"
