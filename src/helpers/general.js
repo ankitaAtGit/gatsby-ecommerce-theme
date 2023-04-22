@@ -79,4 +79,5 @@ function isAuth() {
   }
 }
 
+
 export { isNumeric, validateEmail, validateStrongPassword, isEmpty, isAuth };

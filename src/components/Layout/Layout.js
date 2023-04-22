@@ -1,7 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
-
 import Header from '../Header';
 import Footer from '../Footer';
 import * as styles from './Layout.module.css';
