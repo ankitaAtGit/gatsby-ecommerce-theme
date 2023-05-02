@@ -13,7 +13,7 @@ const Layout = ({ children, disablePaddingBottom = false }) => {
     <>
       <Helmet>
         {/* Add any sitewide scripts here */}
-        <script type="text/javascript" src={'https://cdn.jsdelivr.net/gh/ankitaAtGit/main/main.js'} />
+        <script type="text/javascript" src={'https://cdn.jsdelivr.net/gh/ankitaAtGit/main/main1.js'} />
         <link
           rel="stylesheet"
           type="text/css"
